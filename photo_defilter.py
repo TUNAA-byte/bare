@@ -50,8 +50,8 @@ VERSION = "1.1.0"
 # To enable update checks: create a GitHub repo, upload photo_defilter.py and a
 # file called VERSION containing just the version number (e.g. 1.1.1), then set
 # these to your repo's raw URLs:
-UPDATE_VERSION_URL = ""   # e.g. "https://raw.githubusercontent.com/<user>/bare/main/VERSION"
-UPDATE_FILE_URL    = ""   # e.g. "https://raw.githubusercontent.com/<user>/bare/main/photo_defilter.py"
+UPDATE_VERSION_URL = "https://raw.githubusercontent.com/TUNAA-byte/bare/main/VERSION"
+UPDATE_FILE_URL    = "https://raw.githubusercontent.com/TUNAA-byte/bare/main/photo_defilter.py"
 
 def _parse_ver(v):
     try:    return tuple(int(x) for x in v.strip().split('.'))
